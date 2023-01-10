@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "overskrift";
+    src: url(helvetica_neue_97_black_condensed-webfont.woff2);
+}
+
+header {
+    font-family: "overskrift";
+    font-style: italic;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: medium;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+li a {
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    nav {
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+}
